@@ -24,6 +24,7 @@ public class PreviewPopup : MonoBehaviour
 
         for (int i = 0; i < ProductButton.Length; i++)
         {
+            ProductButton[i].onClick.RemoveAllListeners();
             ProductButton[i].gameObject.SetActive(false);
         }
         for (int i = 0; i < Data.Producer.Count; i++)
@@ -39,10 +40,6 @@ public class PreviewPopup : MonoBehaviour
     }
     public void Hide()
     {
-        for (int i = 0; i < ProductButton.Length; i++)
-        {
-            ProductButton[i].onClick.RemoveAllListeners();
-        }
         Popup.SetActive(false);
     }
     void OnClick(Object Owner, ObjectType Type)

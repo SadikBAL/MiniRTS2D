@@ -1,0 +1,6 @@
+Controller
+LeftClick -> Secme
+Space -> Insa Etme
+ESC -> Insa Iptal Etme
+Right Click -> Binalar icin uretilen askerin gidecegi yeri ayarlama.  Asker icin hareket etme veya saldırma
+Bosluga Tıklama-> Secme islemini iptal etme.
